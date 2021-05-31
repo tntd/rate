@@ -1,17 +1,17 @@
 # 风险评估结果
 ## 安装
 ```bash
-npm i @tntx/risk --save
+npm i @tntx/risk-rate --save
 ```
 
 ## 使用
 ```jsx
 import React from 'react';
-import Risk from '@tntx/risk';
+import RiskRate from '@tntx/risk-rate';
 
 export default () => {
 	return (
-		<Risk
+		<RiskRate
 			color='#07C790'
 			text='通过'
 			count={67}

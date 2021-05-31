@@ -1,5 +1,5 @@
 import React from 'react';
-import Risk from '../lib';
+import RiskRate from '../lib';
 
 export default () => {
 	return (
@@ -9,7 +9,7 @@ export default () => {
 				marginTop: '50px'
 			}}
 		>
-			<Risk
+			<RiskRate
 				// status='error'
 				color='#E86452'
 				text='通过'

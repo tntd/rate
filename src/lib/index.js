@@ -19,14 +19,14 @@ export default (props) => {
 
 	return (
 		<div
-			className={cn('tntx-risk', className)}
+			className={cn('tntx-risk-rate', className)}
 			style={{
 				width: width || '80px',
 				borderColor: color
 			}}
 		>
 			<span
-				className='risk-score'
+				className='tntx-risk-rate-score'
 				style={{
 					backgroundColor: color
 				}}
@@ -34,7 +34,7 @@ export default (props) => {
 				{count}
 			</span>
 			<span
-				className='risk-text'
+				className='tntx-risk-rate-text'
 				style={{
 					color: color
 				}}
